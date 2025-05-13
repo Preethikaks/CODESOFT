@@ -72,3 +72,55 @@ This project aims to detect fraudulent credit card transactions using machine le
 ## Conclusion
 
 Random Forest performed the best among the three models, with a higher accuracy and ROC-AUC score. This notebook can be extended further by applying deep learning models or anomaly detection techniques.
+
+# Task 3 – Spam SMS Detection
+
+This project is part of the CodeSoft Internship tasks. It focuses on building a machine learning model to classify SMS messages as **spam** or **ham** (not spam) using Natural Language Processing (NLP) techniques and classifiers like Naive Bayes.
+
+## NLP Pipeline
+
+1. Text Preprocessing (lowercasing, removing punctuation, stopwords)
+2. Tokenization and Lemmatization
+3. TF-IDF Vectorization
+4. Train-Test Split
+
+
+## Models Used
+
+- **Multinomial Naive Bayes** (Best performing)
+- Logistic Regression (Optional)
+- Support Vector Machine (Optional)
+
+
+
+##  Tools & Libraries
+
+- Python
+- Scikit-learn
+- NLTK
+- Pandas, NumPy
+- Matplotlib & Seaborn (for visualization)
+
+
+
+## Evaluation Metrics
+
+- Accuracy
+- Precision, Recall, F1-Score
+- Confusion Matrix
+
+---
+
+## Key Results
+
+- Naive Bayes achieved high accuracy with minimal false positives
+- TF-IDF features helped distinguish key spam terms like "free", "win", "urgent", etc.
+
+
+## Future Improvements
+
+- Use deep learning (LSTM or BERT) for better accuracy
+- Deploy model with Flask API or Streamlit UI
+
+
+
