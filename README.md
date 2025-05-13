@@ -1,4 +1,5 @@
-# CODESOFT
+# CODESOFT (TASK 1 README FILE)
+
 Projects done as part of CodeSoft Internship
 movie-genre-prediction
 A machine learning project that predicts the genre of a movie based on its plot summary using text vectorization (TF-IDF) and Logistic Regression.
